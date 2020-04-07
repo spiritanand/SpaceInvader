@@ -54,7 +54,7 @@ for i in range(num_of_enemies):
     enemyX.append(random.randint(0, 736))
     enemyY.append(random.randint(50, 150))
     enemyX_change.append(2.5)
-    enemyY_change.append(25)
+    enemyY_change.append(30)
 
 # Bullet Image
 bulletImg = pygame.image.load("bullet.png")
@@ -136,7 +136,7 @@ while running:
     for i in range(num_of_enemies):
 
         # Game Over
-        if enemyY[i] >= 440:
+        if enemyY[i] >= 420:
             for j in range(num_of_enemies):
                 enemyY[j] = 1000
             game_over_text()
