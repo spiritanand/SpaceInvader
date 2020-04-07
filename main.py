@@ -21,7 +21,7 @@ mixer.music.play(-1)
 
 def game_over_text():
     over_text = over_font.render("GAME OVER", True, (255, 0, 0))
-    screen.blit(over_text, (200, 250))
+    screen.blit(over_text, (180, 250))
 
 
 def show_score(x, y):
