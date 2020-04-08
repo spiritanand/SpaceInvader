@@ -18,7 +18,7 @@ over_font = pygame.font.Font("super_mario_256/SuperMario256.ttf", 72)
 mixer.music.load("imperial_march.wav")
 mixer.music.play(-1)
 
-
+ 
 def game_over_text():
     over_text = over_font.render("GAME OVER", True, (255, 0, 0))
     screen.blit(over_text, (180, 250))
